@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Esseprso Teasting</string>
+
+    <string name="correct">Correct</string>
+    <string name="error">Error</string>
+    <string name="enter_valid_data">Please enter email and password..</string>
+</resources>
