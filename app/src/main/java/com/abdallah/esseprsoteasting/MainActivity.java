@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 loadingPB.setVisibility(View.VISIBLE);
-                if (emailET.getText() == null || passwordET.getText() == null) {
+                if (emailET.getText().toString().isEmpty()|| passwordET.getText().toString().isEmpty()) {
                     Toast.makeText(MainActivity.this, getString(R.string.enter_valid_data), Toast.LENGTH_SHORT).show();
                     statusTV.setVisibility(View.GONE);
                     loadingPB.setVisibility(View.GONE);
